@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  height: 720px;
+  width: 720px;
+  margin: 10px 0px 0px 0px;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  height: 240px;
+  width: 240px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
